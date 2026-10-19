@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+.uv/
+.env
+data/
+instance/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

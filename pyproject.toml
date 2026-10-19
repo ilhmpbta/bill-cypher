@@ -18,6 +18,9 @@ dependencies = [
     "python-dotenv>=1.2.4",
 ]
 
+[project.scripts]
+bill-cypher = "bill_cypher:main"
+
 [build-system]
 requires = ["uv_build>=0.12.11,<0.13.0"]
 build-backend = "uv_build"
